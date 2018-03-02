@@ -1,0 +1,21 @@
+table {
+  color: #333;
+  width: 600px;
+  border-width: 1pt 0pt 0pt 1pt;
+  border-spacing: 0;
+  margin: 30px;
+}
+td, th {
+  border: 1px solid transparent;
+  height: 30px;
+  transition: all 0.3s;
+}
+th {
+  font-weight: bold;
+}
+td {
+  text-align: center;
+}
+tr:n-child(even) td { background: #F1F1F1; }
+tr:n-child(odd) td { background: #FEFEFE; }
+tr:hover { background: #777; color: #FFF; }
